@@ -1,0 +1,242 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    background-color: #5F7C8A;
+}
+
+.form{
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.form h3{
+    text-align: center;
+    color: #5F7C8A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form h5{
+    text-align: center;
+    color: #5F7C8A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0;
+}
+
+.form h6{
+    text-align: center;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0;
+}
+
+.advice{
+    color:green;
+}
+
+.error{
+    color: red;
+}
+
+.form a{
+    text-align: center;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.form input[type=text],
+.form input[type=password]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 40px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: #5F7C8A;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.submit{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: #5F7C8A;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.form input[type=submit]:hover{
+    background-color: #4A5F6A;
+}    
+
+.form input[type=text]:focus{
+    outline: 0;
+}
+.form input[type=password]:focus{
+    outline: 0;
+}
+
+select{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 40px;
+    margin: 10px 0;
+    border-radius: 20px;
+    text-align: left;
+    color: #5F7C8A;    
+    margin: 10px 0;
+}
+
+option{
+    text-align: left;
+    color: #5F7C8A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0;
+}
+
+.labelNomeCad{
+    position: absolute;
+    top: 67px;
+    left: 38px;
+    color: #5F7C8A;
+}
+
+.labelEmail{
+    position: absolute;
+    top: 67px;
+    left: 38px;
+    color: #5F7C8A;
+}
+
+.labelEmailCad{
+    position: absolute;
+    top: 132px;
+    left: 38px;
+    color: #5F7C8A;
+}
+
+.verSenha{
+    position: absolute;
+    top: 132px;
+    right: 38px;
+    color: #5F7C8A;
+}
+
+.verSenhaCad{
+    position: absolute;
+    top: 197px;
+    right: 38px;
+    color: #5F7C8A;
+}
+
+.labelSenha{
+    position: absolute;
+    top: 132px;
+    left: 38px;
+    color: #5F7C8A;
+}
+
+.labelSenhaCad{
+    position: absolute;
+    top: 197px;
+    left: 38px;
+    color: #5F7C8A;
+}
+
+.labelAdminCad{
+    position: absolute;
+    top: 262px;
+    left: 38px;
+    color: #5F7C8A;
+}
+
+.fundo{
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    height: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.fundo h4{
+    margin: 10px;
+    text-align: center;
+    color: #5F7C8A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logout{
+    width: 5%;
+    height: 30px;
+    cursor: pointer;
+    background: #5F7C8A;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+    text-align: center;
+    padding-left: 4px;    
+    margin-top:-7%;  
+    margin-left: 90%;  
+}
+
+.clock{
+    position: absolute;
+    top: 17.6%;
+    left: 63%;
+    color: #5F7C8A;
+}
+
+.ponto{
+    margin: 30px 0;        
+}
+
+.ponto h5{
+    text-align: center;
+    color: #5F7C8A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0;
+}
+
+.ponto h6{
+    text-align: center;    
+    color: #5F7C8A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0;
+}
+
+.ponto_box{    
+    border: 1px solid #5F7C8A;
+    width: 60%;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.listPonto{
+    position: absolute;
+    top: 24.9%;
+    left: 8%;
+    color: #5F7C8A;
+}
